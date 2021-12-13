@@ -1,0 +1,39 @@
+Jose Contreras     CSS 225
+READ.ME
+Technical Document 
+==================================================================================================
+Code is hosted on Pythonanywhere.com primarilaiy created on pycharm.
+language written in python 
+======================================================================================================
+ system requiremnts or support application
+ Install File : Adventure Game 
+Run game through main.py
+======================================================================================================
+How to Run Game 
+1) main.py will run the game 
+2) game will prompt choice  user makes a choice 
+3) certain choice cause restart or continue through the story
+=========================================================================================================
+Coding 
+Defs used to define chapters
+int(inputs()) creted to maike choice
+if & elif statements made for splitting choices 
+ch_() used to repeat the level or move onto next chapter 
+import.time helped delay time for text to be read
+
+==========================================================================================================
+Overview Architecture
+main.py is the instroduction and starts chapter 1
+game is split into 5 chapters 
+choices from previous chapters lead into the next chapters
+===========================================================================================================
+About the Game 
+The game takes place in a furturistic dystopia 
+you the player wake up unaware of what happed the day before
+you have to go into a town and investigate what happened 
+the choices made by the player wil help the investigation along
+the choices you make affect the turn out of events
+===========================================================================================================
+Start the game by entering name 
+after entering name you will be asked to start game input Y or N to start 
+this will prompt the intro to chapter 1
